@@ -1,0 +1,71 @@
+.chat-sidebar {
+	max-height: 450px;
+    overflow-y: scroll;
+}
+.bold-text { 
+font-weight: bold;
+}
+.margin10{
+	margin-right:10px;
+}
+.fa,.glyphicon,.glyphicon-exclamation-sign{
+	color: darkcyan!important;
+}
+
+.clear{
+	clear:both;
+}
+
+.padding-bottom-5{
+	padding-bottom:5px;
+}
+
+.float-left{
+	float:left;
+}
+.col_width10{
+	width: 10%;
+}
+.col_width5{
+	width: 5%;
+}
+.col_width30{
+	width: 20%;
+}
+.col_width40{
+	width: 30%;
+}
+.padding-top-5{
+	padding-top:5px;
+}
+.padding-top-10{
+	padding-top:10px;
+}
+.margin-top-10{
+	margin-top:10px;
+}
+.margin-top-20{
+	margin-top:20px;
+}
+.float-left{
+	float:left;
+}
+/*.navbar .navbar-default .nav{
+	max-height: 600px;
+	overflow-y: scroll;
+}*/
+
+.calendar-date-selected {
+	background: #2e6da4!important;
+	color: white!important;
+}
+
+.calendar-day-not-selectable {
+	background: #b3e5fc!important;
+	color: white!important;
+}
+
+.calendar-day-not-selectable.calendar-date-selected {
+	background: #03a9f4!important;
+	color: white!important;
+}
