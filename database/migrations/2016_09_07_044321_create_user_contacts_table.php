@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateUserContactsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('user_contacts', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('user_id');
+            $table->string('name');
+            $table->string('email');
+            $table->string('mobile_number');
+            $table->string('status');
+            $table->enum('type', ['0','1','2','3'])->default(0);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('user_contacts');
+    }
+}
